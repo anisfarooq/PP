@@ -1,0 +1,54 @@
+pls create the following database first
+
+ FOR HOMEPAGE(index.php) 
+   CREATE TABLE HP
+         (
+                 id int(50) NOT NULL AUTO_INCREMENT,
+                 img LONGBLOB NOT NULL,
+                 PRIMARY KEY(id)
+         );
+ 
+FOR HISTORY PAGE(klhist.php) 
+   CREATE TABLE hpp
+         (
+                 id int(50) NOT NULL AUTO_INCREMENT,
+                 img LONGBLOB NOT NULL,
+                 PRIMARY KEY(id)
+         );
+
+FOR GALLERY PAGE(gallery.php) 
+   CREATE TABLE GALR2
+         (
+                 id int(50) NOT NULL,
+                 img LONGBLOB NOT NULL,
+                 PRIMARY KEY(id)
+         );
+
+   CREATE TABLE GALR3
+         (
+                 id int(50) NOT NULL,
+                 img LONGBLOB NOT NULL,
+                 PRIMARY KEY(id)
+         );
+
+FOR ATTRACTION PAGE(attraction.php) 
+   CREATE TABLE galr5
+         (
+                 id int(50) NOT NULL AUTO_INCREMENT,
+                 img LONGBLOB NOT NULL,
+                 PRIMARY KEY(id)
+         );
+
+AND ALSO CHANGE THE DATABASE NAME AND USERNAME,PASSWORD
+
+IN THE FOLLOWING FILE
+1.INSERT FOLDER STOREINFO.PHP
+2.INSERT1 FOLDER STOREINFO.PHP
+3.INSERT2 FOLDER STOREINFO.PHP
+4.UPDAT FOLDER STOREINFO.PHP
+5.UPADTE FOLDER STOREINFO.PHP
+
+Note : Please check "admin.html" file for administrator to 
+insert and update the image in different pages.
+
+Thankyou 
